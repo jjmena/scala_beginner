@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fa634d2d-1360-4d94-b920-691aff94a2e9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/exercises/part1basics/Expressions.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lectures/part1basics/Expressions.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/exercises/part1basics/Functions.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lectures/part1basics/Functions.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -16,28 +16,19 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/lectures/part1basics/ValuesVariablesTypes.scala">
+        <entry file="file://$PROJECT_DIR$/src/lectures/part1basics/Functions.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/lectures/part1basics/Expressions.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="284">
-              <caret line="73" column="3" lean-forward="true" selection-start-line="62" selection-start-column="2" selection-end-line="73" selection-end-column="3" />
+            <state relative-caret-position="329">
+              <caret line="41" column="49" lean-forward="true" selection-start-line="41" selection-start-column="7" selection-end-line="41" selection-end-column="49" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/exercises/part1basics/Expressions.scala">
+        <entry file="file://$PROJECT_DIR$/src/exercises/part1basics/Functions.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="13" column="64" selection-start-line="13" selection-start-column="64" selection-end-line="13" selection-end-column="64" />
+            <state relative-caret-position="404">
+              <caret line="36" column="33" selection-start-line="36" selection-start-column="33" selection-end-line="36" selection-end-column="33" />
             </state>
           </provider>
         </entry>
@@ -65,6 +56,9 @@
         <option value="$PROJECT_DIR$/src/lectures/part1basics/ValuesVariablesTypes.scala" />
         <option value="$PROJECT_DIR$/src/lectures/part1basics/Expressions.scala" />
         <option value="$PROJECT_DIR$/src/exercises/part1basics/Expressions.scala" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/src/lectures/part1basics/Functions.scala" />
+        <option value="$PROJECT_DIR$/src/exercises/part1basics/Functions.scala" />
       </list>
     </option>
   </component>
@@ -129,8 +123,8 @@
   <component name="PropertiesComponent">
     <property name="DefaultYamlCloudFormationTemplate" value="AWS CloudFormation Template (YAML)" />
     <property name="TF_FMT" value="false" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549315870136" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549321658444" />
+    <property name="settings.editor.selected.configurable" value="preferences.editor" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -144,7 +138,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Expressions">
+  <component name="RunManager" selected="Application.Functions (1)">
     <configuration name="Expressions" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="lectures.part1basics.Expressions" />
       <module name="scala_beginner" />
@@ -158,12 +152,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JavaPlayground" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="playground.JavaPlayground" />
+    <configuration name="Functions (1)" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="exercises.part1basics.Functions" />
       <module name="scala_beginner" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="playground.*" />
+          <option name="PATTERN" value="exercises.part1basics.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Functions" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="lectures.part1basics.Functions" />
+      <module name="scala_beginner" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lectures.part1basics.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -199,10 +206,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Functions (1)" />
+        <item itemvalue="Application.Functions" />
         <item itemvalue="Application.Expressions" />
         <item itemvalue="Application.ValuesVariablesTypes" />
         <item itemvalue="Application.ScalaPlayground" />
-        <item itemvalue="Application.JavaPlayground" />
       </list>
     </recent_temporary>
   </component>
@@ -231,7 +239,21 @@
       <option name="project" value="LOCAL" />
       <updated>1549314778314</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Added lecture and exercises for expressions.">
+      <created>1549316047217</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1549316047218</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Modified README file.">
+      <created>1549316195538</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1549316195538</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -270,7 +292,9 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial structure defined for the course." />
     <MESSAGE value="Added lecture for values, variables and types." />
-    <option name="LAST_COMMIT_MESSAGE" value="Added lecture for values, variables and types." />
+    <MESSAGE value="Added lecture and exercises for expressions." />
+    <MESSAGE value="Modified README file." />
+    <option name="LAST_COMMIT_MESSAGE" value="Modified README file." />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/scriptFile.scala" />
@@ -293,10 +317,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/lectures/part1basics/ValuesVariablesTypes.scala">
+    <entry file="file://$PROJECT_DIR$/src/exercises/part1basics/Expressions.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+        <state relative-caret-position="195">
+          <caret line="13" column="64" selection-start-line="13" selection-start-column="64" selection-end-line="13" selection-end-column="64" />
         </state>
       </provider>
     </entry>
@@ -307,10 +331,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/exercises/part1basics/Expressions.scala">
+    <entry file="file://$PROJECT_DIR$/src/lectures/part1basics/ValuesVariablesTypes.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="64" selection-start-line="13" selection-start-column="64" selection-end-line="13" selection-end-column="64" />
+        <state relative-caret-position="405">
+          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="30">
+            <caret line="2" column="143" selection-start-line="2" selection-start-column="143" selection-end-line="2" selection-end-column="143" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lectures/part1basics/Functions.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="329">
+          <caret line="41" column="49" lean-forward="true" selection-start-line="41" selection-start-column="7" selection-end-line="41" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/exercises/part1basics/Functions.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="404">
+          <caret line="36" column="33" selection-start-line="36" selection-start-column="33" selection-end-line="36" selection-end-column="33" />
         </state>
       </provider>
     </entry>
