@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fa634d2d-1360-4d94-b920-691aff94a2e9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/lectures/part1basics/ValuesVariablesTypes.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/exercises/part1basics/Expressions.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lectures/part1basics/Expressions.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -14,11 +15,29 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/lectures/part1basics/ValuesVariablesTypes.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" column="2" selection-start-line="17" selection-start-column="2" selection-end-line="17" selection-end-column="2" />
+            <state relative-caret-position="405">
+              <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/lectures/part1basics/Expressions.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="284">
+              <caret line="73" column="3" lean-forward="true" selection-start-line="62" selection-start-column="2" selection-end-line="73" selection-end-column="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/exercises/part1basics/Expressions.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="195">
+              <caret line="13" column="64" selection-start-line="13" selection-start-column="64" selection-end-line="13" selection-end-column="64" />
             </state>
           </provider>
         </entry>
@@ -44,6 +63,8 @@
         <option value="$PROJECT_DIR$/src/playground/JavaPlayground.java" />
         <option value="$PROJECT_DIR$/src/playground/ScalaPlayground.scala" />
         <option value="$PROJECT_DIR$/src/lectures/part1basics/ValuesVariablesTypes.scala" />
+        <option value="$PROJECT_DIR$/src/lectures/part1basics/Expressions.scala" />
+        <option value="$PROJECT_DIR$/src/exercises/part1basics/Expressions.scala" />
       </list>
     </option>
   </component>
@@ -77,7 +98,27 @@
               <item name="scala_beginner" type="b2602c69:ProjectViewProjectNode" />
               <item name="scala_beginner" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="exercises" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="scala_beginner" type="b2602c69:ProjectViewProjectNode" />
+              <item name="scala_beginner" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="exercises" type="462c0819:PsiDirectoryNode" />
+              <item name="part1basics" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="scala_beginner" type="b2602c69:ProjectViewProjectNode" />
+              <item name="scala_beginner" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="lectures" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="scala_beginner" type="b2602c69:ProjectViewProjectNode" />
+              <item name="scala_beginner" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="lectures" type="462c0819:PsiDirectoryNode" />
+              <item name="part1basics" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -88,7 +129,7 @@
   <component name="PropertiesComponent">
     <property name="DefaultYamlCloudFormationTemplate" value="AWS CloudFormation Template (YAML)" />
     <property name="TF_FMT" value="false" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549314742191" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549315870136" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
   </component>
   <component name="RunDashboard">
@@ -103,7 +144,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ValuesVariablesTypes">
+  <component name="RunManager" selected="Application.Expressions">
+    <configuration name="Expressions" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="lectures.part1basics.Expressions" />
+      <module name="scala_beginner" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lectures.part1basics.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="JavaPlayground" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="playground.JavaPlayground" />
       <module name="scala_beginner" />
@@ -145,6 +199,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Expressions" />
         <item itemvalue="Application.ValuesVariablesTypes" />
         <item itemvalue="Application.ScalaPlayground" />
         <item itemvalue="Application.JavaPlayground" />
@@ -169,14 +224,20 @@
       <option name="project" value="LOCAL" />
       <updated>1549235020646</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Added lecture for values, variables and types.">
+      <created>1549314778313</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1549314778314</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="834" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.34263232" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.34263232" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -185,7 +246,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32914925" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32914925" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -208,7 +269,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial structure defined for the course." />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial structure defined for the course." />
+    <MESSAGE value="Added lecture for values, variables and types." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added lecture for values, variables and types." />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/scriptFile.scala" />
@@ -233,8 +295,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/lectures/part1basics/ValuesVariablesTypes.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="2" selection-start-line="17" selection-start-column="2" selection-end-line="17" selection-end-column="2" />
+        <state relative-caret-position="405">
+          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lectures/part1basics/Expressions.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="284">
+          <caret line="73" column="3" lean-forward="true" selection-start-line="62" selection-start-column="2" selection-end-line="73" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/exercises/part1basics/Expressions.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="64" selection-start-line="13" selection-start-column="64" selection-end-line="13" selection-end-column="64" />
         </state>
       </provider>
     </entry>
