@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fa634d2d-1360-4d94-b920-691aff94a2e9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/exercises/part2oop/MethodNotations.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lectures/part2oop/Objects.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lectures/part2oop/MethodNotations.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/lectures/part2oop/MethodNotations.scala" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -18,17 +17,26 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/lectures/part2oop/MethodNotations.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="546">
-              <caret line="68" column="5" lean-forward="true" selection-start-line="52" selection-start-column="2" selection-end-line="68" selection-end-column="5" />
+            <state relative-caret-position="1020">
+              <caret line="68" column="5" selection-start-line="52" selection-start-column="2" selection-end-line="68" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/exercises/part2oop/MethodNotations.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="130">
+              <caret line="22" column="19" selection-start-line="22" selection-start-column="19" selection-end-line="22" selection-end-column="19" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/exercises/part2oop/MethodNotations.scala">
+        <entry file="file://$PROJECT_DIR$/src/lectures/part2oop/Objects.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="73">
-              <caret line="22" column="19" selection-start-line="22" selection-start-column="19" selection-end-line="22" selection-end-column="19" />
+            <state relative-caret-position="597">
+              <caret line="41" column="114" selection-start-line="41" selection-start-column="114" selection-end-line="41" selection-end-column="114" />
             </state>
           </provider>
         </entry>
@@ -68,13 +76,15 @@
         <option value="$PROJECT_DIR$/src/exercises/part2oop/OOBasic.scala" />
         <option value="$PROJECT_DIR$/src/lectures/part2oop/MethodNotations.scala" />
         <option value="$PROJECT_DIR$/src/exercises/part2oop/MethodNotations.scala" />
+        <option value="$PROJECT_DIR$/src/lectures/part2oop/Objects.scala" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="y" value="23" />
-    <option name="width" value="1440" />
-    <option name="height" value="834" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="1440" />
+    <option name="y" value="-157" />
+    <option name="width" value="1920" />
+    <option name="height" value="1014" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -83,7 +93,6 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -126,12 +135,13 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultYamlCloudFormationTemplate" value="AWS CloudFormation Template (YAML)" />
     <property name="TF_FMT" value="false" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549924541560" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550012496668" />
     <property name="settings.editor.selected.configurable" value="preferences.editor" />
   </component>
   <component name="RunDashboard">
@@ -146,7 +156,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.MethodNotations (1)">
+  <component name="RunManager" selected="Application.Objects">
     <configuration name="MethodNotations (1)" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="exercises.part2oop.MethodNotations" />
       <module name="scala_beginner" />
@@ -199,12 +209,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StringOps" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="lectures.part1basics.StringOps" />
+    <configuration name="Objects" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="lectures.part2oop.Objects" />
       <module name="scala_beginner" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lectures.part1basics.*" />
+          <option name="PATTERN" value="lectures.part2oop.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -214,11 +224,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Objects" />
         <item itemvalue="Application.MethodNotations (1)" />
         <item itemvalue="Application.MethodNotations" />
         <item itemvalue="Application.OOBasic" />
         <item itemvalue="Application.OOBasics" />
-        <item itemvalue="Application.StringOps" />
       </list>
     </recent_temporary>
   </component>
@@ -317,13 +327,21 @@
       <option name="project" value="LOCAL" />
       <updated>1549837080200</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Added examples for the exercises related with Method Notations.">
+      <created>1549926119223</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1549926119223</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="834" extended-state="0" />
+    <frame x="1440" y="-157" width="1920" height="1014" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20600858" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15548456" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -332,7 +350,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.24965133" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.24860647" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -366,7 +384,8 @@
     <MESSAGE value="Added examples for the lecture related with Object Oriented Basics." />
     <MESSAGE value="Added examples for the examples related with Object Oriented Basics." />
     <MESSAGE value="Added examples for the lecture related with Method Notations." />
-    <option name="LAST_COMMIT_MESSAGE" value="Added examples for the lecture related with Method Notations." />
+    <MESSAGE value="Added examples for the exercises related with Method Notations." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added examples for the exercises related with Method Notations." />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/scriptFile.scala" />
@@ -488,15 +507,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/lectures/part2oop/MethodNotations.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="546">
-          <caret line="68" column="5" lean-forward="true" selection-start-line="52" selection-start-column="2" selection-end-line="68" selection-end-column="5" />
+        <state relative-caret-position="1020">
+          <caret line="68" column="5" selection-start-line="52" selection-start-column="2" selection-end-line="68" selection-end-column="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/exercises/part2oop/MethodNotations.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="73">
+        <state relative-caret-position="130">
           <caret line="22" column="19" selection-start-line="22" selection-start-column="19" selection-end-line="22" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lectures/part2oop/Objects.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="597">
+          <caret line="41" column="114" selection-start-line="41" selection-start-column="114" selection-end-line="41" selection-end-column="114" />
         </state>
       </provider>
     </entry>
