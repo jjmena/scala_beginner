@@ -1,6 +1,6 @@
 package exercises.part2oop
 
-abstract class MyList {
+abstract class MyList[+A] {
 
   /*
     Methods:
@@ -8,16 +8,16 @@ abstract class MyList {
     tail = remainder of the list.
     isEmpty = is this list empty.
     add(int) => new list with this element added.
-    toString => a string represenation of the list.
+    toString => a string representation of the list.
    */
 
-  def head(): Integer
+  def head(): A
 
-  def tail(): MyList
+  def tail(): MyList[A]
 
   def isEmpty(): Boolean
 
-  def add(element: Int): MyList
+  def add[B >: A](element: B): MyList[B]
 
   def printElements: String
 
@@ -28,36 +28,36 @@ abstract class MyList {
 
 // ??? expression means not implemented
 
-object Empty extends MyList {
+object Empty extends MyList[Nothing] {
 
-  override def head(): Integer = throw new NoSuchElementException
+  override def head(): Nothing = throw new NoSuchElementException
 
-  override def tail(): MyList = throw new NoSuchElementException
+  override def tail(): MyList[Nothing] = throw new NoSuchElementException
 
   override def isEmpty(): Boolean = true
 
-  override def add(element: Int): MyList = new Cons(element, Empty)
+  override def add[B >: Nothing](element: B): MyList[B] = new Cons(element, Empty)
 
   def printElements: String = ""
 }
 
-class Cons(h: Int, t: MyList) extends MyList {
+class Cons[+A](h: A, t: MyList[A]) extends MyList[A] {
 
-  override def head(): Integer = h
+  override def head(): A = h
 
-  override def tail(): MyList = t
+  override def tail(): MyList[A] = t
 
   override def isEmpty(): Boolean = false
 
-  override def add(element: Int): MyList = new Cons(element, this)
+  override def add[B >: A](element: B): MyList[B] = new Cons(element, this)
 
   def printElements: String = if (t.isEmpty()) s"$h" else s"$h ${t.printElements}"
 }
 
 object ListTest extends App {
-  val list = new Cons(1, new Cons(2, new Cons(3, Empty)))
-  println(list.tail().head())
-  println(list.add(4).head())
-  println(list.isEmpty())
-  println(list)
+  val listOfInteger: MyList[Int] = new Cons(1, new Cons(2, new Cons(3, Empty)))
+  val listOfString: MyList[String] = new Cons("hello", new Cons("world", new Cons("!!", Empty)))
+
+  println(listOfInteger.toString)
+  println(listOfString.toString)
 }

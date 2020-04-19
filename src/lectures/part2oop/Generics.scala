@@ -4,9 +4,10 @@ object Generics extends App {
 
   // Generic class and traits
 
-  class MyList[A] {
+  class MyList[+A] {
     // uses the type A
     // It also works for traits
+    def add[B >: A](element: B): MyList[B] = ???
   }
 
   class MyMap[Key, Value]
@@ -17,6 +18,10 @@ object Generics extends App {
   // Generic methods
   object MyList {
     def empty[A]: MyList[A] = ???
+    /*
+     A = Cat
+     B = Dog = Animal
+     */
   }
 
   val emptyListOfIntegers = MyList.empty[Int]
@@ -34,7 +39,8 @@ object Generics extends App {
   class CovariantList[+A]
   val animal: Animal = new Cat
   val animalList: CovariantList[Animal] = new CovariantList[Cat]
-  // animalList.add(new Dog) ?? HARD QUESTION. Because we are going to pollute the second questions.
+  // animalList.add(new Dog) ?? HARD QUESTION. => We return a list of animals
+  // Because we are going to pollute the second questions.
   // With +A we can use inherited classes
 
   // 2. No - Invariance
@@ -61,5 +67,11 @@ object Generics extends App {
   // Error in execution time: Error:(54, 16) inferred type arguments [lectures.part2oop.Generics.Car] do not conform to class Cage's type parameter bounds [A <: lectures.part2oop.Generics.Animal]
 
   class Cage2[A >: Animal] // A is a supertype of Animal
+
+  // Subtypes Meaning
+  // [A <: Animal] => A is a subtype of Animal
+  // [A >: Animal] => A is a supertype (parent) of Animal
+
+  // Exercise: Expand MyList to be generic
 
 }
